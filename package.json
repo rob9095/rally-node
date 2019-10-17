@@ -20,7 +20,7 @@
   "scripts": {
     "build": "cross-env BABEL_ENV=commonjs babel lib --out-dir dist",
     "lint": "eslint .",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "example:crud": "npm run build && node examples/crud.js",
     "example:query": "npm run build && node examples/query.js",
     "test": "mocha --compilers js:babel-register spec/*.js spec/**/*.js"
