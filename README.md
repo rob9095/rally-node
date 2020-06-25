@@ -18,7 +18,7 @@ Rally Software does not actively maintain or support this toolkit. If you have a
 
 The toolkit is distributed as an npm module named rally.  Simply add to an existing package.json or install from the command line.
 ```
-npm install rally
+npm install rally-node
 ```
 
 ## User Guide
